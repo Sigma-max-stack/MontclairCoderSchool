@@ -54,4 +54,22 @@ def op2(x, y):
         return(b-a)
 print(op2(1, 1))
 '''
+'''
+def c_circle(r):
+    return(2*3.14*r)
 
+print(c_circle(5))
+
+def a_circle(r):
+    return(3.14*r*r)
+print(a_circle(5))    
+'''
+
+def op_circle(r):
+    c = 2*3.14*r
+    a = 3.14*r*r
+    if a>c:
+        return("area is bigger")
+    else:
+        return("circumfrence is bigger")
+print(op_circle(5))
